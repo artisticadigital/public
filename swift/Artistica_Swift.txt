@@ -1,0 +1,13 @@
+Artistica Digital's Swift is a CSS and JS library for easier development, maintained and updated on external files for all templated site projects.
+It includes:
+app.css (for helper classes)
+app.js (for helper javascript)
+components.css (layout and some styling for prebuilt components and elements)
+	To be used with:
+	components.html (a list of all master components and elements)
+Notes:
+Use basic.css for branding and overall styling changes.
+Use project-components.css for specific changes to components/elements or new components/elements. Keep an updated list of all used components and elements on project-components.html.
+
+optional:
+Artistica Accessibility (for accessible sites, extra accessibility features and dashboard)
