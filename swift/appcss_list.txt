@@ -5,12 +5,10 @@ Templated sites
 
 To add:
 .btnimg (blindcreate)
-square image accents? (SK)
+square image accents? (SK) **{Need to finalise}
 .section.hero (SK)
 .vimeovid.vid_wrap (SK)
 .sec_bg_bc1 etc (SK)
-.icon_row (SK)
-.modal-dialog.modal-xl (SK)
 
 BRAND
 [border and text color utility]
@@ -29,12 +27,16 @@ BRAND
 .dbc5
 .lgry
 .dgry
+[shadows]
+.shad1 (applies --shad1)
+.shad2
 [borders]
 .bord1 (applies border 1; use with basic.css)
 .bord2
 .bord1_img (applies border1 to img children)
 .bord2_img
-
+.br-major
+.br-minor
 [background colour utility]
 .bc1-bg
 .bc2-bg
@@ -77,8 +79,11 @@ CONTENT STYLING
 .title_wrap (not currently assigned)
 .p_wrap (0.75rem y margin)
 .img_wrap (centres img wrap with 0 y margin)
-.centered_wrap (centres element)
-.all_centered_wrap (centres all children)
+.centered_wrap (centres element text)
+.all_centered_wrap (centres all children text)
+.icon_row (use div.icon_row>p>i and will align everything)
+[modal]
+.modal-dialog.modal-xl (max-width: 1000px)
 [text]
 .nowrap ("whitespace: nowrap" on element)
 .p-nowrap
@@ -105,26 +110,36 @@ CONTENT STYLING
 .imgbg.imgbg-centercenter (positions center center)
 
 
+
 SPACING & POSITIONING
 [small sections]
 .list_row (3rem y padding and 0rem x padding)
 .inline_wrap (displays child divs as inline-block)
-.inlinep_wrap (displays p as inline)
+.inlinep_wrap (displays child <p> as inline and <div> as inline-block)
 
 
 [large sections]
-.no_colgutter (removes left and right padding)
-.no_rowgutter (all margin 0)
+.no_contgutter (removes all margins and x padding on container; apply to .container)
+.no_colgutter (removes left and right padding on cols; apply to .section, .container or .row)
+.no_rowgutter (all rows margin 0; apply to .section or .container; best used with .container-fluid)
 .container.cont-60 (min-height 60vh)
 .section.secp (5rem y padding and 0rem x padding on .section)
+.row.rowp (5rem y padding and 0rem x padding on .section)
+[large section heights]
+.cont-20 (applies minimum vh on section)
+.cont-40
+.cont-60
+.cont-80
+.cont-100
 
 [flex]
 .flexdiv ("flex: 1")
 .flexdiv .img_wrap (img_wrap 100% height and aligns centre)
 .flexrow (display flex)
+.flexcol (display flex)
 .flexalign-center (aligns centre)
 .flexalign-end (aligns end)
-.inlineflex_wrap (displays content "space-around" with flex)
+.inlineflex_wrap (displays content "space-around" with flexrow **{poss redundant?})
 
 [sticky]
 .stickycont (apply to containing div)
