@@ -58,5 +58,5 @@ component {
 /*Fillers*/
 .section.filler.size_1x3 {
     width: 100%;
-    height: 300%;
+    height: 300vh;
 }
