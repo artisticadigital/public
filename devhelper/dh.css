@@ -1,0 +1,53 @@
+/*COMINFO SWITCH*/
+/*To show component info*/
+.cominfo_switch {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0.5rem;
+    background-color: lightblue;
+    border-top-right-radius: 5px;
+}
+
+.cominfo_on component {
+    position: relative !important;
+}
+component {
+    position: unset;
+    border: none;
+}
+.cominfo_on component > *:not(.cominfo) {
+    box-shadow: 0px 0px 0px 4px red !important;
+}
+.cominfo {
+    display: none;
+    visibility: hidden;
+    height: 0;
+}
+.cominfo_on .cominfo {
+    display: block;
+    visibility: visible;
+    height: auto;
+    width: 20vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    padding: 0.5rem;
+}
+
+.cominfo_on .cominfo * {
+    color: red;
+}
+
+.cominfo_on .cominfo span {
+    display: block;
+}
+
+.cominfo_on .cominfo span.comclass {
+    font-weight: bold;
+}
+
+.cominfo_on .cominfo span.comtype {
+    font-style: italic;
+}
