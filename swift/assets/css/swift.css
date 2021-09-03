@@ -1,0 +1,441 @@
+/*
+To go through:
+Artistica
+Templated sites
+
+
+To add:
+square image accents? (SK) **{Need to finalise}
+.section.hero (SK) **{use imgbg for now? Alternatively put .section.hero in basic.css?}
+iPad force mobile look and feel P**{to be determined after developing site. For now, force mobile views on ipad!}
+*/
+
+/*BRAND*/
+/*[border and text color utility]*/
+.bc1 {
+    color: var(--bc1);
+    border-color: var(--bc1);
+}
+.bc2 {
+    color: var(--bc2);
+    border-color: var(--bc2);
+}
+.bc3 {
+    color: var(--bc3);
+    border-color: var(--bc3);
+}
+.bc4 {
+    color: var(--bc4);
+    border-color: var(--bc4);
+}
+.bc5 {
+    color: var(--bc5);
+    border-color: var(--bc5);
+}
+.w {
+    color: var(--w);
+    border-color: var(--w);
+}
+.blk {
+    color: var(--blk);
+    border-color: var(--blk);
+}
+.gry {
+    color: var(--gry);
+    border-color: var(--gry);
+}
+.dbc1 {
+    color: var(--dbc1);
+    border-color: var(--dbc1);
+}
+.dbc2 {
+    color: var(--dbc2);
+    border-color: var(--dbc2);
+}
+.dbc3 {
+    color: var(--dbc3);
+    border-color: var(--dbc3);
+}
+.dbc4 {
+    color: var(--dbc4);
+    border-color: var(--dbc4);
+}
+.dbc5 {
+    color: var(--dbc5);
+    border-color: var(--dbc5);
+}
+.lgry {
+    color: var(--lgry);
+    border-color: var(--lgry);
+}
+.dgry {
+    color: var(--dgry);
+    border-color: var(--dgry);
+}
+/*[shadows]*/
+.shad1 {
+    box-shadow: var(--shad1);
+}
+.shad2 {
+    box-shadow: var(--shad2);
+}
+/*[borders]*/
+.bord1 {
+    border: var(--border1) !important;
+}
+.bord2 {
+    border: var(--border2) !important;
+}
+.bord1_img > * img {
+    border: var(--border1);
+}
+.bord2_img > * img {
+    border: var(--border2);
+}
+.br_minor {
+    border-radius: var(--br-minor);
+}
+.br_major {
+    border-radius: var(--br-major);
+}
+/*[background colour utility]*/
+.bc1-bg {
+    background-color: var(--bc1);
+}
+.bc2-bg {
+    background-color: var(--bc2);
+}
+.bc3-bg {
+    background-color: var(--bc3);
+}
+.bc4-bg {
+    background-color: var(--bc4);
+}
+.bc5-bg {
+    background-color: var(--bc5);
+}
+.w-bg {
+    background-color: var(--w);
+}
+.blk-bg {
+    background-color: var(--blk);
+}
+.gry-bg {
+    background-color: var(--gry);
+}
+.trans-bg {
+    background-color: transparent;
+}
+.dbc1-bg {
+    background-color: var(--dbc1);
+}
+.dbc2-bg {
+    background-color: var(--dbc2);
+}
+.dbc3-bg {
+    background-color: var(--dbc3);
+}
+.dbc4-bg {
+    background-color: var(--dbc4);
+}
+.dbc5-bg {
+    background-color: var(--dbc5);
+}
+.lgry-bg {
+    background-color: var(--lgry);
+}
+.dgry-bg {
+    background-color: var(--dgry);
+}
+
+/*WIDTHS*/
+/*[use for anything]*/
+.wid-10pc {
+    width: 10%;
+}
+.wid-20pc {
+    width: 20%;
+}
+.wid-30pc {
+    width: 30%;
+}
+.wid-40pc {
+    width: 40%;
+}
+.wid-50pc {
+    width: 50%;
+}
+.wid-60pc {
+    width: 60%;
+}
+.wid-70pc {
+    width: 70%;
+}
+.wid-80pc {
+    width: 80%;
+}
+.wid-90pc {
+    width: 90%;
+}
+.wid-100pc {
+    width: 100%;
+}
+/*[specifically for buttons]*/
+.btn.btn-100pc {
+    width: 100%;
+}
+.btn.btn-80pc {
+    width: 80%;
+}
+.btn.btn-60pc {
+    width: 60%;
+}
+.btn.btn-40pc {
+    width: 40%;
+}
+.btn.btn-20pc {
+    width: 20%;
+}
+
+/*CONTENT STYLING*/
+/*[wraps]*/
+.title_wrap {
+    margin: var(--margin_t);
+}
+.p_wrap {
+    margin: var(--margin_p)
+}
+.img_wrap {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.all_centered_wrap > * {
+    text-align: center;
+}
+.centered_wrap {
+    text-align: center;
+}
+.icon_row p {
+  text-indent: -3rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+.icon_row i {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+.icon_row i:before {
+    padding: 0.25rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+/*[modal]*/
+.modal-dialog.modal-xl {
+    max-width: 1000px;
+}
+/*[text]*/
+.nowrap {
+    white-space: nowrap;
+}
+.all_nowrap > * {
+    white-space: nowrap;
+}
+.p_nowrap p {
+    white-space: nowrap;
+}
+.h1-nowrap h1 {
+    white-space: nowrap;
+}
+.h2-nowrap h2 {
+    white-space: nowrap;
+}
+.h3-nowrap h3 {
+    white-space: nowrap;
+}
+.h4-nowrap h4 {
+    white-space: nowrap;
+}
+.h5-nowrap h5 {
+    white-space: nowrap;
+}
+.h6-nowrap h6 {
+    white-space: nowrap;
+}
+/*[imgage backgrounds]*/
+.imgbg-contain {
+    background-size: contain !important;
+}
+.imgbg-cover {
+    background-size: cover !important;
+}
+.imgbg.imgbg-fixed {
+    background-attachment: fixed !important;
+}
+.imgbg.imgbg-center {
+    background-position: center !important;
+}
+.imgbg.imgbg-left {
+    background-position: left !important;
+}
+.imgbg.imgbg-right {
+    background-position: right !important;
+}
+.imgbg.imgbg-centertop {
+    background-position: center top !important;
+}
+.imgbg.imgbg-centerbottom {
+    background-position: center bottom !important;
+}
+.imgbg.imgbg-lefttop {
+    background-position: left top !important;
+}
+.imgbg.imgbg-leftbottom {
+    background-position: left bottom !important;
+}
+.imgbg.imgbg-righttop {
+    background-position: right top !important;
+}
+.imgbg.imgbg-rightbottom {
+    background-position: right bottom !important;
+}
+.imgbg.imgbg-centercenter {
+    background-position: center center !important;
+}
+/*[video]*/
+.vidmodal .modal-body {
+    padding: 0;
+}
+.vimeovid.vid_wrap, .vimeovid.vid_wrap .modal-content {
+    background: transparent;
+}
+/*[button image]*/
+.btnimg {
+    background-size: 100% 100% !important;
+    display: flex;
+    transition: all 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+}
+.all_centered_wrap .btnimg {
+    margin: 0 auto;
+}
+.btnimg:hover {
+    cursor: pointer;
+}
+.btnimg p {
+    margin: 0;
+}
+
+/*SPACING & POSITIONING*/
+/*[small sections]*/
+.bmargin1 {
+    margin: var(--bmargin1);
+}
+.bmargin2, .list_row {
+    margin: var(--bmargin2);
+}
+.bpadding1 {
+    padding: var(--bpadding1);
+}
+.bpadding2 {
+    padding: var(--bpadding2);
+}
+.inline_wrap div {
+    display: inline-block;
+}
+
+.inline_wrap p {
+    display: inline;
+}
+/*[large sections]*/
+.container.no_contgutter, .container-fluid.no_contgutter {
+     padding-right:0;
+    padding-left:0;
+    margin: 0;
+}
+.no_colgutter > * [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.no_rowgutter > * [class='row'] {
+    margin: 0;
+}
+.section.secp, .row.rowp {
+    padding: var(--bpadding1);
+}
+/*[large section heights]*/
+.cont-20 {
+    min-height: 20vh;
+}
+.cont-40 {
+    min-height: 40vh;
+}
+.cont-60 {
+    min-height: 60vh;
+}
+.cont-80 {
+    min-height: 80vh;
+}
+.cont-100 {
+    min-height: 100vh;
+}
+/*[flex]*/
+.flexdiv {
+    flex: 1;
+}
+.flexdiv .img_wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.flexrow, .flexcol {
+    display: flex;
+}
+.flexrow {
+    flex-direction: row;
+}
+.flexcol {
+    flex-direction: column;
+}
+.flexalign-start {
+    display: flex;
+    align-items: flex-start;
+}
+.flexalign-center {
+    display: flex;
+    align-items: center;
+}
+.flexalign-end {
+    display: flex;
+    align-items: flex-end;
+}
+/*[sticky]*/
+.stickycont {
+    height: 100%;
+    position: relative;
+}
+.stickydiv {
+    height: auto;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+/*RESPONSIVENESS*/
+/*[hiding and displaying content]*/
+@media only screen and (max-width: 768px) {
+    .hide-sm-down {
+        display: none;
+    }
+
+}
+
+/*Hidden medium and up*/
+@media only screen and (min-width: 768px) {
+    .hide-md-up {
+        display: none;
+    }
+
+}

@@ -1,0 +1,216 @@
+/*Author - Artistica Digital LTD*/
+/*This is some basic styling that the desgin team should always iterate in the wireframe*/
+
+/*For overiding Bootstrap / Foundation: Remember you need to use selectors that are as specific as the BS/F css file*/
+
+/*Brand colours - rename and describe in each comment to make clearer*/
+/*Use brand.css with swift.css [basic.css should be used with standalone, non-swift builds]*/
+
+
+/*Author - Artistica Digital LTD*/
+/*This is some basic styling that the desgin team should always iterate in the wireframe*/
+
+/*For overiding Bootstrap / Foundation: Remember you need to use selectors that are as specific as the BS/F css file*/
+
+/*Brand colours - rename and describe in each comment to make clearer*/
+:root {
+    --bc1: #4F8234;
+    /*brand colour 1*/
+    --bc2: #33551A;
+    /*brand colour 2*/
+    --bc3: #F0AB00;
+    /*brand colour 3*/
+    --bc4: #CB9100;
+    /*brand colour 4*/
+    --bc5: #232323;
+    /*brand colour 5*/
+    --w: #fff;
+    --blk: #232323;
+    /*set these to #fff or #000 if not required*/
+    --gry: #5E5E5E;
+    /*the grey iteration if used*/
+    --lgry: #707070;
+    
+    --dbc1: #33551A;
+    --dbc3: #CB9100;
+}
+
+/*Theme colours - can add multiples*/
+/*Use theme colours if differently styled iterations of a repeating eleemnt occurs e.g. modals, product theme colours, page sections or different pages. Add the colours in, style only the initial element and then add the tcx class as required*/
+/*Add other values e.g. borders, typography, as required*/
+:root .tc1 {
+    --themecol1: var(--bc2);
+    --themecol2: var(--bc3);
+    --themecol3: var(--bc5);
+    --themecol4: var(--bc1);
+    --themecol5: var(--bc4);
+}
+
+:root .tc2 {
+    --themecol1: var(--bc1);
+    --themecol2: var(--bc3);
+    --themecol3: var(--bc5);
+    --themecol4: var(--bc2);
+    --themecol5: var(--bc4);
+}
+
+/*Typography*/
+/*4 header font family*/
+h1, h2, h3, h4 {
+    font-family:'Raleway', sans-serif;
+    color: var(--bc1);
+}
+p {
+    color: var(--bc1);
+}
+h1 {
+    color: var(--bc1);
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2 {
+    color: var(--bc1);
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h3 {
+    color: var(--bc2);
+    font-size: 2rem;
+    font-weight: normal;
+}
+h4 {
+    color: var(--bc2);
+    font-size: 1rem;
+    font-weight: bold;
+}
+/*Use H5 and H6 as anomalies*/
+
+/*Input box x 2 and placeholder text*/
+
+.input-box-text {
+    
+}
+.input-box-text.ibt1 {
+    
+}
+.input-box-text.ibt2 {
+    
+}
+
+/*Links*/
+a.nonbut {
+    color: var(--blk);
+    padding: 0.2rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+/*
+a.nonbut i {
+    color: var(--bc1);
+    transition: all 0.2s ease;
+}
+
+a.nonbut:hover, a.nonbut:hover i {
+    color: var(--bc2);
+    background: var(--blk);
+    text-decoration: none;
+}
+*/
+
+/*Borders*/
+:root {
+    /*primary & secondary borders*/
+    --border1: 2px solid var(--bc2);
+    --border2: 6px dashed var(--bc3);
+
+    /*two border radiuses*/
+    --br-major: 0 50px 0 50px;
+    --br-minor: 5px;
+    
+    /*shadow*/
+    --shad1: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/*Margins and padding for the brand*/
+:root {
+    --bmargin1: 0.75rem 0;
+    --bmargin2: 2rem 0;
+    --bpadding1: 5rem 0;
+    --bpadding2: 0.5rem;
+}
+:root {
+    --margin_p: 0;
+    --margin_t: var(--bmargin1);
+}
+/*Buttons - delete the .cusbtn class or use .btn for bootstrap*/
+/*Remember to use the available btn options in BS/F if only minor overides, e.g. .btn.btn-outline-primary*/
+
+/*Add more modifying classes (:active, :clicked etc) as necessary*/
+
+.cusbtn {
+    border-radius: var(--br-minor);
+    padding: 0.3rem 0.4rem;
+    font-size: 1rem;
+    border-width: 2px;
+    border-style: solid;
+    width: 9rem;
+}
+.cusbtn.butwid1 {
+    width: 9rem;
+}
+.cusbtn.butwid2 {
+    width: 10.5rem;
+}
+
+/*hover for both buttons*/
+/*
+.cusbtn:hover {
+    background-color: var(--w);
+    color: var(--blk);
+}
+*/
+
+/*primary button*/
+.cusbtn.but1 {
+    color: var(--w);
+    border-color: var(--bc1);
+    background-color: var(--bc1);
+}
+
+.cusbtn.but1:hover {
+    border-color: var(--dbc1);
+    background-color: var(--dbc1);
+}
+
+a.navbtn.active .cusbtn.but1 {
+    border-color: var(--bc3);
+    background-color: var(--bc3);
+}
+
+/*secondary button*/
+.cusbtn.but2 {
+    color: var(--w);
+    border-color: var(--bc3);
+    background-color: var(--bc3);
+}
+
+.cusbtn.but2:hover {
+    border-color: var(--dbc3);
+    background-color: var(--dbc3);
+}
+
+
+.section.hero.herobg1 {
+}
+
+.imgbg.imgbg1 {
+    background-image: url('/wp-content/uploads/sites/ratemyhustle/img/imgbg1.jpg');
+}
+
+
+/*img shadow styling*/
+.shad1 {
+    box-shadow: var(--shad1);
+}

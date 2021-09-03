@@ -4,11 +4,9 @@ Templated sites
 
 
 To add:
-.btnimg (blindcreate)
 square image accents? (SK) **{Need to finalise}
-.section.hero (SK)
-.vimeovid.vid_wrap (SK)
-.sec_bg_bc1 etc (SK)
+.section.hero (SK) **{use imgbg for now? Alternatively put .section.hero in basic.css?}
+iPad force mobile look and feel P**{to be determined after developing site. For now, force mobile views on ipad!}
 
 BRAND
 [border and text color utility]
@@ -108,6 +106,9 @@ CONTENT STYLING
 .imgbg.imgbg-righttop (positions right top)
 .imgbg.imgbg-rightbottom (positions right bottom)
 .imgbg.imgbg-centercenter (positions center center)
+[video]
+.vid_wrap (use for video wraps **{currently not set})
+.vimeovid.vid_wrap (makes bg transparent for vimeo videos)
 
 
 
