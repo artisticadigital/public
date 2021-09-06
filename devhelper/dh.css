@@ -56,7 +56,20 @@ component {
 
 /*DEV HELPER CLASSES*/
 /*Fillers*/
-.section.filler.size_1x3 {
+.section.DHfiller.size_1x3 {
     width: 100%;
     height: 300vh;
+}
+
+.DHnav {
+    position: relative;
+    background-color: red;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DHnav span {
+    color: white;
 }
