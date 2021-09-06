@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 
-jQuery('body').append('<div class="cominfo_switch"><form action=""><label>Coms<input id="coms" type="checkbox"></label><label>Hs<input id="hs" type="checkbox"></label></form></div>');
+jQuery('body').append('<div class="cominfo_switch"><form action=""><label>Coms<input id="coms" type="checkbox"></label><br><label>Hs<input id="hs" type="checkbox"></label></form></div>');
     jQuery('component:not(.comDH)').each(function () {
                     var comclass = jQuery(this).attr('class');
                     var comtype = jQuery(this).data("comtype");
