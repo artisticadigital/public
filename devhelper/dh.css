@@ -52,6 +52,16 @@ component {
     font-style: italic;
 }
 
+/*To show titles*/
+span.htype {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: lightblue;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: red;
+}
 
 
 /*DEV HELPER CLASSES*/
