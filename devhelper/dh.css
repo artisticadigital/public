@@ -60,10 +60,6 @@ span.htype {
     border-radius: 50%;
     color: red;
 }
-h1 span.htype, h2 span.htype, h3 span.htype, h4 span.htype, h5 span.htype, h6 span.htype {
-    left: 0;
-    top: 0;
-}
 
 
 /*DEV HELPER CLASSES*/
