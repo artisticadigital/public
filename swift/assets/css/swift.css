@@ -354,11 +354,11 @@ iPad force mobile look and feel P**{to be determined after developing site. For 
     padding-left:0;
     margin: 0;
 }
-.no_colgutter > * [class*='col-'] {
+.no_colgutter > * [class*='col-'], .no_colgutter [class*='col-'] {
     padding-right: 0;
     padding-left: 0;
 }
-.no_rowgutter > * [class='row'] {
+.no_rowgutter > * [class='row'], .no_rowgutter [class='row'] {
     margin: 0;
 }
 .section.secp, .row.rowp {
