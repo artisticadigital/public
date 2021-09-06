@@ -54,13 +54,15 @@ component {
 
 /*To show titles*/
 span.htype {
-    position: absolute;
-    left: 0;
-    top: 0;
     background-color: lightblue;
     padding: 0.5rem;
     border-radius: 50%;
     color: red;
+}
+span.htype h1, span.htype h2, span.htype h3, span.htype h4, span.htype h5, span.htype h6 {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 
