@@ -233,6 +233,11 @@ iPad force mobile look and feel P**{to be determined after developing site. For 
 .modal-dialog.modal-xl {
     max-width: 1000px;
 }
+/**[cards]*/
+.card {
+    border: unset;
+    border-radius: unset;
+}
 /*[text]*/
 .nowrap {
     white-space: nowrap;
