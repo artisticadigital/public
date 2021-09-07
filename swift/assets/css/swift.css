@@ -361,6 +361,9 @@ iPad force mobile look and feel P**{to be determined after developing site. For 
 .no_rowgutter > * [class='row'], .no_rowgutter [class='row'] {
     margin: 0;
 }
+.section {
+    overflow: hidden;
+}
 .section.secp, .row.rowp {
     padding: var(--bpadding1);
 }
