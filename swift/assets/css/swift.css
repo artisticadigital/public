@@ -350,8 +350,9 @@ iPad force mobile look and feel P**{to be determined after developing site. For 
     display: inline-block;
 }
 
-.inline_wrap p, .inline_wrap i.inline_wrap span {
-    display: inline;
+.inline_flex {
+    display: inline-flex;
+    align-items: center;
 }
 /*[large sections]*/
 .container.no_contgutter, .container-fluid.no_contgutter {
